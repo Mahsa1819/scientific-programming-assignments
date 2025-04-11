@@ -1,4 +1,4 @@
-# scientific-programming-assignments
+
 # Planar Mechanism Analysis and Simulation
 
 This project presents a complete **kinematic and dynamic analysis** of a planar multi-link mechanism using MATLAB. It includes animated motion simulation, position and velocity analysis, and the calculation of input torque using numerical methods.
@@ -63,9 +63,9 @@ This project presents a complete **kinematic and dynamic analysis** of a planar 
 
 ## 👩‍💻 Author
 
-**Mahsa Venda**  
+**Mahsa Vanda**  
 B.Sc. in Mechanical Engineering  
-Noshirvani University of Technology
+Babol Noshirvani University of Technology
 
 ---
 
