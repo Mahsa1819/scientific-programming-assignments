@@ -1,6 +1,7 @@
 # Planar Mechanism Analysis and Simulation
 
-This project presents a complete **kinematic and dynamic analysis** of a planar multi-link mechanism using MATLAB. It includes **animated motion simulation**, **position and velocity analysis**, and the calculation of **input torque** using **numerical methods**.
+This is a project related to the **Dynamics of Machines** course, where students are given a diagram image and are required to analyze the diagram in MATLAB. This project presents a complete **kinematic and dynamic analysis** of a planar multi-link mechanism using MATLAB. It includes **animated motion simulation**, **position and velocity analysis**, and the calculation of **input torque** using **numerical methods**.
+
 
 ## 📁 File Structure
 
@@ -43,7 +44,6 @@ This project presents a complete **kinematic and dynamic analysis** of a planar 
      ```
      [Click here to view the code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/dynamic_analysis)
 
-> **Note**: You may need to adjust certain parameters (such as the crank speed or link lengths) directly in the scripts to match the specific case you are analyzing.
 
 ---
 
