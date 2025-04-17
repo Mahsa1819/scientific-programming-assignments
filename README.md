@@ -29,14 +29,19 @@ This project presents a complete **kinematic and dynamic analysis** of a planar 
      ```matlab
      kinematic_analysis
      ```
+     [Click here to view the code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/kinematic_analysis)
+
    - **Mechanism animation**:
      ```matlab
      mechanism_animation
      ```
+     [Click here to view the code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/mechanism_animation)
+
    - **Dynamic force analysis**:
      ```matlab
      dynamic_analysis
      ```
+     [Click here to view the code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/dynamic_analysis)
 
 > **Note**: You may need to adjust certain parameters (such as the crank speed or link lengths) directly in the scripts to match the specific case you are analyzing.
 
@@ -76,4 +81,3 @@ Here are the links to the code files for each part of the project. You can view 
 - [Kinematic Analysis Code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/kinematic_analysis)
 - [Mechanism Animation Code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/mechanism_animation)
 - [Dynamic Analysis Code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/dynamic_analysis)
-
