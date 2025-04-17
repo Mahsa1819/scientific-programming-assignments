@@ -35,30 +35,6 @@ This is a project related to the **Dynamics of Machines** course, where students
    - **Mechanism animation**:
      ```matlab
      mechanism_animation
-     clear all
-clc
-l1 = 3; l2 = 2; l3 = 10; l31 = 4; l5 = 8; omega2 = 42;
-teta2 = -2*pi/3:-pi/18:-4*pi;
-for i = 1 : length(teta2)
-    teta3(i) = asin(-l2*sin(teta2(i))/l3);
-    teta31(i) = teta3(i)+33*pi/180;
-    l4(i) = l2*cos(teta2(i))+l3*cos(teta3(i));
-    teta5(i) = acos((l1-l2*cos(teta2(i))-l31*cos(teta31(i)))/l5);
-    l6(i) = l2*sin(teta2(i))+l31*sin(teta31(i))+l5*sin(teta5(i));
-    f = @(x)[x(1)-x(3)
-        x(2)-x(4)
-        x(4)*l2*cos(teta2(i))+x(3)*l3*sin(teta2(i))+x(5)
-        x(3)-x(7)
-        x(4)+x(6)-x(8)
-        -x(8)*l31*cos(teta31(i))+x(7)*l31*sin(teta31(i))+x(6)*l3*cos(teta3(i))
-        x(7)-x(9)
-        x(8)-20
-        x(9)*l5*sin(teta5(i))-20*l5*cos(teta5(i))];
-    x0 = [0 0 0 0 0 0 0 0 0];
-    x = fsolve(f,x0);
-    T2(i) = x(5);
-end
-plot(teta2,T2);xlabel('teta2');ylabel('T2');
      ```
      [Click here to view the code](https://github.com/Mahsa1819/scientific-programming-assignments/blob/main/mechanism_animation)
 
